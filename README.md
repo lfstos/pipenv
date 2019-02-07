@@ -21,6 +21,16 @@ O primeiro passo que você precisa para utilizar o pipenv é criar um ambiente.
 
 pipenv --python 3.6
 
+Após criado o ambiente, ou se o ambiente já tiver criado.
+
+$ pyenv versions
+ 
+* system (set by /home/mateus/.pyenv/version)
+  3.5.1
+  
+  pyenv global 3.7.2
+  pyenv local 3.7.2
+  
 # Instalação de dependências
 
 O pipenv permite separar as dependências por tipo de ambiente, como produção ou desenvolvimento. Para instalar uma dependência no ambiente padrão, só precisamos executar o seguinte comando:
